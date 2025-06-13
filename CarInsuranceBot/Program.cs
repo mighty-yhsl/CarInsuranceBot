@@ -16,9 +16,9 @@ namespace CarInsuranceBot
 {
     class Program
     {
-        private const string TelegramBotToken = "7949826445:AAHYJFoGa1ROZ5kA63vgXK5o1GAEz65z-zE";
-        private const string MindeeApiKey = "e5ff97398098a3eb5280ff070388f7d6";
-        private const string OpenAiApiKey = "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";
+        private const string TelegramBotToken = "TelegramBotToken";
+        private const string MindeeApiKey = "MindeeApiKey";
+        private const string OpenAiApiKey = "OpenAiApiKey";
 
         private static readonly ITelegramBotClient Bot = new TelegramBotClient(TelegramBotToken);
         private static readonly HttpClient MindeeClient = new HttpClient();
